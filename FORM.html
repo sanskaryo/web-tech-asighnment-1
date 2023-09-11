@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align="center" bgcolor="powderblue">
+    <h2> <text color="red">Form For college event</h2>
+    <center><form action="backend.php" method="post">
+        
+        <div>
+             Enter name:<input type="text" name="myName" id="name" required>
+        </div>
+        <br>
+        <div>
+            address:<br> <textarea name="address" cols="25" rows="5" ></textarea>
+        </div>
+        <br>
+        <div>
+            contact details: <input type="phone number">
+        </div>
+        <br>
+        <div>date: <input type="date"></div><br>
+        <div>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="myEmail" pattern="[a-zA-Z0-9.%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]" required>
+        </div>
+        <br>
+        
+        <div>
+            gender: Male <input type="radio" name="GENDER"> Female <input type="radio"
+            name="GENDER" ></div>
+            <br>
+            
+            <div>
+                number: <input type="number" name="myEmail">
+            </div>
+            <div>
+                checkbox: <input type="checkbox" name="eligibility">
+            </div>
+<br>
+            <label for="ticket">Ticket Type</label>
+            <select name="ticket type" id="car">
+                <option value="V.I.P.">V.I.P</option>
+                <option value="General Admission">General Admission</option>
+            </select>
+            <br>
+            <br>
+            <div>
+                submit: <input type="submit" name="Submitnow">
+            </div><br>
+<br>
+            <div>
+                To reset: <input type="reset" name="Reset">
+            </div>
+        </form></center>
+        
+    </body>
+    </html>

@@ -1,0 +1,24 @@
+Here is an example of how you can create a blink effect using CSS animations:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1 class="blink">This text will blink</h1>
+
+</body>
+</html>

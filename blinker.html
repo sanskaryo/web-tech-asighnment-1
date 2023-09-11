@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: red;
+        }
+        .blink {
+            animation: blinker 1s linear infinite;
+            width: 100%;
+            height: 150px;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center><h1 class="blink" width="50">Warning!</h1></center>
+    <h2><marquee>Read the message</marquee></h2>
+</body>
+</html>

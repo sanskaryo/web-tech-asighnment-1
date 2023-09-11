@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.city-title {
+    font-size: 3em;
+    color: #007BFF;
+}
+
+.landmarks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.landmark {
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.green { color: #28A745; }
+.red { color: #DC3545; }
+.purple { color: #6F42C1; }
+.orange { color: #FFC107; }
+.teal { color: #20C997; }
+.navy { color: #001F3F; }
+.maroon { color: #D9534F; }
+.darkolivegreen { color: #556B2F; }
+.chocolate { color: #D2691E; }
+.indigo { color: #6610F2; }
+.italic { font-style: italic; animation: blink 1s infinite; }
+
+@keyframes blink {
+    0%, 49% {
+        opacity: 0;
+    }
+    50%, 100% {
+        opacity: 1;
+    }
+}
+
+.scrolling-text {
+    font-size: 1.2em;
+    color: #343A40;
+    font-weight: bold;
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+

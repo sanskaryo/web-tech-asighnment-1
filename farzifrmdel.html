@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration</title>
+</head>
+<body bgcolor="#f82">
+    <font face="Monaco">
+    <h1><center>Event Registration</h1></center>
+    <center><form id="registration-form">
+        <label for="event">Event Name:</label><br>
+        <input type="text" id="event" name="event" required><br><br>
+        <br>
+        <div>date: <input type="date" required></div><br><br>
+        <label for="name">Attendee Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="contact">Contact Number:</label><br>
+        <input type="tel" id="contact" name="contact" required><br><br>
+        <label for="ticket-type">Ticket Type:</label><br>
+        <select id="ticket-type" name="ticket-type">
+            <option value="" disabled selected>Select a ticket type</option>
+            <option value="vip">VIP</option>
+            <option value="general-admission">General Admission</option>
+        </select><br><br>
+        <label for="additional-info">Address</label><br>
+        <textarea id="additional-info" name="additional-info"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form></center>
+
+    
+</body>
+</html>
