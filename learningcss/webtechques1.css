@@ -1,0 +1,36 @@
+table{
+    border: 2px solid black;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#hello{
+width: 100%;
+font-size: 30px;
+font-family:  Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 100;
+font-display: 50;
+color:blue;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 20px 50px;
+    background-color:orangered;
+    color:antiquewhite;
+    font-size: 30px;
+    border:0cap;
+    border-radius: 10px;
+
+
+
+}
+
+input[type="text"] {
+  Padding: 20px 30px;
+  font-size: 50px;
+  text-align: right;
+  border:none;
+  border-radius: 5px;  
+  border: 2px solid rgb(178, 11, 11);          
+}

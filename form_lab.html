@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="style1" href="form.css">
+    <style>
+        fieldset {
+          background-color: #eeeeee;
+        }
+        
+        legend {
+          background-color: gray;
+          color: white;
+          padding: 5px 10px;
+        }
+        
+        input {
+          margin: 5px;
+        }
+        </style>
+</head>
+
+    
+    <body  bgcolor="black"><center>
+        <h2> <font color="yellow"> signup Form </h2></center>
+        <center><legend></legend><form id="main"></form>
+            <div>
+            <div>
+                 First name:<input type="text" value="Enter First name" name="myName" id="name" required>
+            </div>
+            <br>
+            <div>
+                Last name:<input type="text" name="myName" id="name"value="enter Last name" required>
+           </div><br>
+           <div>date: <input type="date" value="date of birth"></div><br>
+            
+            <br>
+            <label>
+                Gender:
+                </label>
+            
+                <input type="radio" name="Gender"/> Male
+                <input type="radio" name="Gender"/> Female<br>
+                
+                </label><br>
+                
+            
+
+          
+            </select>
+
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="myEmail" pattern="[a-zA-Z0-9.%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]" required>
+            </div><br>
+            <div> Enter Password:<input type="password" placeholder="Password" id="password" required><br>
+                <br>
+                 confirm password:<input type="password" placeholder="Confirm Password" id="confirm_password" required></div>
+
+        
+
+<br>
+            <div>
+                contact details: <input type="phone number">
+            </div>
+            <br>
+            I agree to terms and conditions<input type="checkbox" id="checkbox" >
+
+            <div>
+            <input type="submit" value="Submit">
+
+        
+                 <input type="reset" name="Reset" value="cancel">
+            </div></center></div>
+            </form></legend>
+           
+</body>
+</html>
